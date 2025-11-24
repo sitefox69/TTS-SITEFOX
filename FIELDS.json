@@ -1,0 +1,497 @@
+{
+  "ttsCommands": {
+    "type": "text",
+    "label": "TTS Commands (separate by comma for multiple commands)",
+    "value": "!tts"
+  },
+  "ignoreEmotes": {
+    "type": "checkbox",
+    "label": "Ignore Emotes",
+    "value": true
+  },
+  "ignoreEmojis": {
+    "type": "checkbox",
+    "label": "Ignore Emojis",
+    "value": true
+  },
+  "ignoreLinks": {
+    "type": "checkbox",
+    "label": "Ignore Links",
+    "value": true
+  },
+  "ignoreRepeats": {
+    "type": "checkbox",
+    "label": "Ignore Repeats",
+    "value": true
+  },
+  "stripResponses": {
+    "label": "Remove username from responses",
+    "type": "checkbox",
+    "value": true
+  },
+  "ignoreBits": {
+    "label": "Ignore Bits",
+    "type": "checkbox",
+    "value": true
+  },
+  "useQueue": {
+    "type": "checkbox",
+    "label": "Use Queue (disables overlap)",
+    "value": false
+  },
+  "characterLimit": {
+    "label": "Character Limit (0 for All)",
+    "type": "number",
+    "value": 0,
+    "min": 0
+  },
+  "doUserSaid": {
+    "type": "checkbox",
+    "label": "Prefix message with user name",
+    "value": false
+  },
+  "bannedWords": {
+    "type": "text",
+    "label": "Banned words, comma separated",
+    "value": "shit,fuck,cum"
+  },
+  "privileges": {
+    "type": "dropdown",
+    "label": "Who can participate:",
+    "value": "everybody",
+    "options": {
+      "everybody": "Everybody",
+      "justSubs": "Subs",
+      "subs": "Subs + VIPs + Mods",
+      "vips": "VIPs + Mods",
+      "mods": "Mods",
+      "broadcaster": "Broadcaster"
+    }
+  },
+  "volume": {
+    "type": "slider",
+    "label": "Volume",
+    "value": 1,
+    "min": 0,
+    "max": 1,
+    "steps": 0.1
+  },
+  "voice": {
+    "type": "dropdown",
+    "label": "TTS Voice",
+    "value": "Mizuki",
+    "options": {
+      "Mizuki": "Mizuki",
+      "Justin": "Justin",
+      "Filiz": "Filiz",
+      "Zehra": "Zehra",
+      "Astrid": "Astrid",
+      "Elsa": "Elsa",
+      "Tatyana": "Tatyana",
+      "Maxim": "Maxim",
+      "Carmen": "Carmen",
+      "Cristiano": "Cristiano",
+      "Ricardo": "Ricardo",
+      "Isabela": "Isabela",
+      "Alice": "Alice",
+      "Maja": "Maja",
+      "Jan": "Jan",
+      "Jacek": "Jacek",
+      "Ewa": "Ewa",
+      "Ruben": "Ruben",
+      "Lotte": "Lotte",
+      "Annemieke": "Annemieke",
+      "Eva": "Eva",
+      "Lars": "Lars",
+      "Marc": "Marc",
+      "Verona": "Verona",
+      "Liv": "Liv",
+      "Nora": "Nora",
+      "Malena": "Malena",
+      "Jacob": "Jacob",
+      "Thea": "Thea",
+      "Aksel": "Aksel",
+      "Seoyeon": "Seoyeon",
+      "Heosu": "Heosu",
+      "Grace": "Grace",
+      "Takumi": "Takumi",
+      "Koharu": "Koharu",
+      "Miho": "Miho",
+      "Eiko": "Eiko",
+      "Haruto": "Haruto",
+      "Eichi": "Eichi",
+      "Giorgio": "Giorgio",
+      "Carla": "Carla",
+      "Bianca": "Bianca",
+      "Valentina": "Valentina",
+      "Stella": "Stella",
+      "Alessandro": "Alessandro",
+      "Luca": "Luca",
+      "Karl": "Karl",
+      "Dora": "Dora",
+      "Helga": "Helga",
+      "Mathieu": "Mathieu",
+      "Chantal": "Chantal",
+      "Juliette": "Juliette",
+      "Felix": "Felix",
+      "Camille": "Camille",
+      "Jaques": "Jaques",
+      "Miguel": "Miguel",
+      "Mia": "Mia",
+      "Enrique": "Enrique",
+      "Conchita": "Conchita",
+      "Rosalinda": "Rosalinda",
+      "Geraint": "Geraint",
+      "Salli": "Salli",
+      "Matthew": "Matthew",
+      "Kimberly": "Kimberly",
+      "Kendra": "Kendra",
+      "Joey": "Joey",
+      "Joanna": "Joanna",
+      "Ivy": "Ivy",
+      "Michael": "Michael",
+      "Allison": "Allison",
+      "Lisa": "Lisa",
+      "Carter": "Carter",
+      "Paul": "Paul",
+      "Evelyn": "Evelyn",
+      "Liam": "Liam",
+      "Jasmine": "Jasmine",
+      "Madison": "Madison",
+      "Mark": "Mark",
+      "Vanessa": "Vanessa",
+      "Zachary": "Zachary",
+      "Audrey": "Audrey",
+      "Raveena": "Raveena",
+      "Aditi": "Aditi",
+      "Emma": "Emma",
+      "Brian": "Brian",
+      "Amy": "Amy",
+      "Kate": "Kate",
+      "Laya": "Laya",
+      "Ali": "Ali",
+      "Scarlett": "Scarlett",
+      "Oliver": "Oliver",
+      "Bella": "Bella",
+      "John": "John",
+      "Victoria": "Victoria",
+      "Ron": "Ron",
+      "Russell": "Russell",
+      "Nicole": "Nicole",
+      "Zoe": "Zoe",
+      "Luke": "Luke",
+      "Samantha": "Samantha",
+      "Steve": "Steve",
+      "Courtney": "Courtney",
+      "Jayden": "Jayden",
+      "Ashleigh": "Ashleigh",
+      "Daneil": "Daneil",
+      "Vicki": "Vicki",
+      "Marlene": "Marlene",
+      "Hans": "Hans",
+      "Birgit": "Birgit",
+      "Dieter": "Dieter",
+      "Karolina": "Karolina",
+      "Albert": "Albert",
+      "Angelika": "Angelika",
+      "Oskar": "Oskar",
+      "Nina": "Nina",
+      "Sebastian": "Sebastian",
+      "Naja": "Naja",
+      "Mads": "Mads",
+      "Marie": "Marie",
+      "Gwyneth": "Gwyneth",
+      "Zhiyu": "Zhiyu",
+      "Sofia": "Sofia",
+      "Emi": "Emi",
+      "Renee": "Renee",
+      "Yvonne": "Yvonne",
+      "Gaspard": "Gaspard",
+      "Emilie": "Emilie",
+      "Marcel": "Marcel",
+      "Brigitte": "Brigitte",
+      "Simon": "Simon",
+      "Francesca": "Francesca",
+      "Gianna": "Gianna",
+      "Laura": "Laura",
+      "Amelia": "Amelia",
+      "Stanislaw": "Stanislaw",
+      "Tomasz": "Tomasz",
+      "Klaudia": "Klaudia",
+      "Beatriz": "Beatriz",
+      "Francisco": "Francisco",
+      "Lucas": "Lucas",
+      "Carolina": "Carolina",
+      "Eliska": "Eliska",
+      "Yagmur": "Yagmur",
+      "Mehmet": "Mehmet",
+      "Miray": "Miray",
+      "Elif": "Elif",
+      "Enes": "Enes",
+      "Vladislav": "Vladislav",
+      "Aisha": "Aisha",
+      "Ahmad": "Ahmad",
+      "Silvia": "Silvia",
+      "Jakub": "Jakub",
+      "Anushri": "Anushri",
+      "Sundar": "Sundar",
+      "Satya": "Satya",
+      "Tala": "Tala",
+      "Marianne": "Marianne",
+      "Heidi": "Heidi",
+      "Thalia": "Thalia",
+      "Stefanos": "Stefanos",
+      "Sneha": "Sneha",
+      "Arnav": "Arnav",
+      "Aadhav": "Aadhav",
+      "Ishtevan": "Ishtevan",
+      "Szabolcs": "Szabolcs",
+      "Anisa": "Anisa",
+      "Budi": "Budi",
+      "Bayu": "Bayu",
+      "Andika": "Andika",
+      "Li Na": "Li Na",
+      "Wang": "Wang",
+      "Bai": "Bai",
+      "Mingli": "Mingli",
+      "Linh": "Linh",
+      "Nguyen": "Nguyen",
+      "phuong": "phuong",
+      "Viet": "Viet",
+      "An": "An",
+      "Aleksandra": "Aleksandra",
+      "Juris": "Juris",
+      "Nikolina": "Nikolina",
+      "Ivan": "Ivan",
+      "Sonva": "Sonva",
+      "Tracy": "Tracy",
+      "Danny": "Danny",
+      "Huihui": "Huihui",
+      "Yaoyao": "Yaoyao",
+      "Kangkang": "Kangkang",
+      "Hanhan": "Hanhan",
+      "Zhiwei": "Zhiwei",
+      "Doron": "Doron",
+      "Filip": "Filip",
+      "Herena": "Herena",
+      "Kalpana": "Kalpana",
+      "Hemant": "Hemant",
+      "Matej": "Matej",
+      "Rizwan": "Rizwan",
+      "Lado": "Lado",
+      "Valluvar": "Valluvar",
+      "Linda": "Linda",
+      "Heather": "Heather",
+      "Sean": "Sean",
+      "Karsten": "Karsten",
+      "Guillaume": "Guillaume",
+      "Pattara": "Pattara",
+      "Hoda": "Hoda",
+      "Naayf": "Naayf"
+    }
+  },
+  "perUserVoices": {
+    "type": "text",
+    "label": "Voices used for individual users",
+    "value": "Nicole,Russell,Raveena,Amy,Brian,Emma,Joanna,Matthew,Salli"
+  },
+  "changeVoiceCommand": {
+    "type": "text",
+    "label": "Change Default Voice Command",
+    "value": "!changeVoice",
+    "group": "Change Voice Command"
+  },
+  "changePrivileges": {
+    "type": "dropdown",
+    "label": "Who can participate:",
+    "value": "broadcaster",
+    "options": {
+      "everybody": "Everybody",
+      "justSubs": "Subs",
+      "subs": "Subs + VIPs + Mods",
+      "vips": "VIPs + Mods",
+      "mods": "Mods",
+      "broadcaster": "Broadcaster"
+    },
+    "group": "Change Voice Command"
+  },
+  "skipCommand": {
+    "type": "text",
+    "label": "Skip TTS Command",
+    "value": "!skiptts",
+    "group": "Skip Command"
+  },
+  "skipPrivileges": {
+    "type": "dropdown",
+    "label": "Who can participate:",
+    "value": "broadcaster",
+    "options": {
+      "everybody": "Everybody",
+      "justSubs": "Subs",
+      "subs": "Subs + VIPs + Mods",
+      "vips": "VIPs + Mods",
+      "mods": "Mods",
+      "broadcaster": "Broadcaster"
+    },
+    "group": "Skip Command"
+  },
+  "globalShutoffCommand": {
+    "type": "text",
+    "group": "Global Shutoff",
+    "label": "Command to turn off ALL tts",
+    "value": "!stopAllTTS"
+  },
+  "globalEnableCommand": {
+    "type": "text",
+    "group": "Global Shutoff",
+    "label": "Command to turn on ALL tts",
+    "value": "!startAllTTS"
+  },
+  "globalShutOffPrivileges": {
+    "type": "dropdown",
+    "group": "Global Shutoff",
+    "label": "Who can participate:",
+    "value": "broadcaster",
+    "options": {
+      "everybody": "Everybody",
+      "subs": "Subs + VIPs + Mods",
+      "vips": "VIPs + Mods",
+      "mods": "Mods",
+      "broadcaster": "Broadcaster"
+    }
+  },
+  "doRaidStuff": {
+    "label": "Do Raid Stuff",
+    "group": "Raid",
+    "type": "checkbox",
+    "value": false
+  },
+  "raidTime": {
+    "label": "How Long? (seconds)",
+    "group": "Raid",
+    "type": "number",
+    "value": 600
+  },
+  "raidLimit": {
+    "label": "Minimum Number of Raiders",
+    "group": "Raid",
+    "type": "number",
+    "value": 3,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "doEverybodyStuff": {
+    "label": "Do Everybody Stuff",
+    "group": "Everybody TTS",
+    "type": "dropdown",
+    "value": "false",
+    "options": {
+      "true": "Yes",
+      "false": "No"
+    }
+  },
+  "everybodyPrivileges": {
+    "type": "dropdown",
+    "group": "Everybody TTS",
+    "label": "Who can use these commands?",
+    "value": "broadcaster",
+    "options": {
+      "everybody": "Everybody",
+      "subs": "Subs + VIPs + Mods",
+      "vips": "VIPs + Mods",
+      "mods": "Mods",
+      "broadcaster": "Broadcaster"
+    }
+  },
+  "everybodyEnableCommand": {
+    "label": "Command to enable tts for everybody",
+    "group": "Everybody TTS",
+    "type": "text",
+    "value": "!enableEverybodyTts"
+  },
+  "everybodyDisableCommand": {
+    "label": "Command to disable tts for everybody",
+    "group": "Everybody TTS",
+    "type": "text",
+    "value": "!disableEverybodyTts"
+  },
+  "everybodyTime": {
+    "label": "How long for it to be enabled? (seconds)",
+    "group": "Everybody TTS",
+    "type": "number",
+    "value": 300
+  },
+  "globalTTS": {
+    "label": "Say absolutely Everything",
+    "group": "Global TTS",
+    "type": "checkbox",
+    "value": false
+  },
+  "globalTTSPrivileges": {
+    "type": "dropdown",
+    "group": "Global TTS",
+    "label": "Say text from what groups?",
+    "value": "everybody",
+    "options": {
+      "everybody": "Everybody",
+      "subs": "Subs + VIPs + Mods",
+      "vips": "VIPs + Mods",
+      "mods": "Mods",
+      "broadcaster": "Broadcaster"
+    }
+  },
+  "idToVoiceMap": {
+    "type": "Global TTS",
+    "label": "ID to voice map (JSON)",
+    "value": "{\"137237743\": \"Nicole\", \"583041704\": \"Mizuki\"}"
+  },
+  "everybodyBotFilters": {
+    "label": "Bots to filter out",
+    "group": "Everybody TTS",
+    "type": "text",
+    "value": "StreamElements,Moobot,Nightbot"
+  },
+  "userTTSPrivileges": {
+    "type": "dropdown",
+    "label": "User TTS Privileges",
+    "group": "User TTS",
+    "value": "broadcaster",
+    "options": {
+      "everybody": "Everybody",
+      "justSubs": "Subs",
+      "subs": "Subs + VIPs + Mods",
+      "vips": "VIPs + Mods",
+      "mods": "Mods",
+      "broadcaster": "Broadcaster"
+    }
+  },
+  "userTTSOnCommand": {
+    "label": "User On command",
+    "group": "User TTS",
+    "type": "text",
+    "value": "!userttson"
+  },
+  "userTTSOffCommand": {
+    "label": "User Off command",
+    "group": "User TTS",
+    "type": "text",
+    "value": "!userttsoff"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "TTS by Swolekat"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "swolekat"
+  },
+  "widgetVersion": {
+    "type": "hidden",
+    "value": "3.21"
+  },
+  "widgetUpdateUrl": {
+    "type": "hidden",
+    "value": "https://github.com/swolekat/se-widgets/tree/main/tts"
+  }
+}
