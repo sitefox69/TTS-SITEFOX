@@ -9,6 +9,6 @@ Miłego korzytsania :)
 
 Komeda:
 
-**!tts** <text>
+**!tts** _text_
 
 Wywołuję bota.
