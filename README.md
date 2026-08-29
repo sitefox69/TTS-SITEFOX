@@ -8,7 +8,7 @@ Miłego korzytsania :)
 # Działanie
 
 Komeda:
-
+```
 **!tts** _text_
-
+```
 Wywołuję bota.
