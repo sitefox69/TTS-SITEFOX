@@ -12,4 +12,4 @@ Komeda:
 ```
 Wywołuję bota.
 
-Miłego korzytsania :)
+Miłego korzytsania 🙂
