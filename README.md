@@ -1,4 +1,4 @@
-# TTS-SITEFOX
+# TTS-SITEFOX StreamElemnts
 
 Wszystko działa na syntezatorze mowy Google, więc zmiana voice nie jest jeszcze zaimplementowana.
 
